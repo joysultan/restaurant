@@ -1,0 +1,2 @@
+monserrat-regular: font-family: 'Montserrat', sans-serif;/400
+monserrat-semi-bold:    font-family: 'Montserrat', sans-serif;/600

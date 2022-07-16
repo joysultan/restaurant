@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 25px;
+    background-color: #EFE4CD;
+    
+}
+nav{}
+.container{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #001A2C;
+    border-radius: 65px;
+    background-color: #001A2C;
+    height: 80px;
+}
+.logo{
+    width: 15%;
+    /* border: 1px solid blue; */
+    padding-left: 30px;
+    cursor: pointer;
+    margin-top: -11px;
+    
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: white;
+}
+.menu{
+    width: 50%;
+    /* border: 1px solid navy; */
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.menu ul{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.menu ul li{
+    list-style-type: none;
+    font-size: 17px;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    margin:10px 40px;
+    text-align: center;
+    /* padding-left: 70px; */
+    display: block;
+    color: white;
+    transition: .2s all ease-in;
+
+}
+.menu ul li a:hover{
+    color:#FF5710 ;
+  
+   padding-top: 5px;
+ 
+    
+}
+.sign-up{
+    width: 10%;
+    /* border: 1px solid orange; */
+    /* margin-left: 200px; */
+    margin-top: 2px;
+    
+}
+.sign-up h4{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #18B095;
+    cursor: pointer;
+    transition: .3s all ease-in;
+   
+}
+.sign-up:hover h4{
+    color: #FF5710;
+}
